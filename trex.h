@@ -27,7 +27,7 @@
 
 ****************************************************************/
 
-#ifdef _UNICODE
+#if 0 //def _UNICODE
 #define TRexChar unsigned short
 #define MAX_CHAR 0xFFFF
 #define _TREXC(c) L##c 
